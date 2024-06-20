@@ -4,9 +4,9 @@
 
 int main() {
     // Inisialisasi PIN awal
-    int pin = 9876;
+    int pin = 12250511004;
     // Inisialisasi saldo awal
-    float balance = 500000;
+    float balance = 1000000;
     // Inisialisasi variabel-variabel lain yang dibutuhkan
     int choice, login_attempt = 0;
     int transfer_account_number;
@@ -25,7 +25,7 @@ top_up_shope_pay,top_up_pln,
         if (input_pin == pin) {
             printf("Login successful!\n");
             while (1) {
-                printf("\nATM Menu\n");
+                printf("\nATM HANDRAINIL Menu\n");
                 printf("1. Check Balance\n");
                 printf("2. Deposit\n");
                 printf("3. Withdraw\n");
